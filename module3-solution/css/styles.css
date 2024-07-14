@@ -1,0 +1,111 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #E4740C;
+}
+
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.fixed-top {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  background-color: black;
+  padding-top: 0;
+  margin-top: 0; 
+}
+
+
+/*header*/
+#header-nav {
+  vertical-align: center;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown-button {
+  position: absolute;
+  clear:both;
+  top: 0px;
+  right: 0px;
+  margin-top: 20px;
+  border: 2px solid rgb(166, 255, 166);
+}
+
+
+#collapsable-nav {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+
+a #brand { /*food LLC*/
+  width: 70%;
+  color: #F1AF2A;
+  font-size: 48px;
+  text-decoration: solid;
+  position: relative;
+}
+
+
+.dropdown-menu-text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*header*/
+
+
+
+
+/*Main content*/
+#main-content #body-header { /* OUR MENU*/
+  text-align: center;
+  font-size: 38px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(255, 217, 168);
+}
+
+.content-block {
+  height: fit-content;
+}
+
+
+#text-section {
+  margin-bottom: 40px;
+}
+
+div .content-paragraph {
+  position: relative;
+  height: 2600px;
+  overflow: scroll;
+  padding: 10px;
+  background-color: rgb(119, 66, 66);
+  color:  lightgreen;
+  border: 2px green dashed;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-ending {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/*Main content*/
+
+
