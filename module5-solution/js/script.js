@@ -30,7 +30,7 @@ var insertHtml = function (selector, html) {
   targetElem.innerHTML = html;
 };
 
-// Show loading icon inside element identified by 'selector'.
+// Show loading icon inside element identified by 'selector'.r
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
   html += "<img src='images/ajax-loader.gif'></div>";
@@ -115,11 +115,10 @@ function buildAndShowHomeHTML (categories) {
       // $dc.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
-      console.log(chosenCategoryShortName);
+      console.log(typeof(chosenCategoryShortName));
 
-      //
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
-
+      var shortname = "'" + chosenCategoryShortName.short_name + "'";
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", shortname);
 
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
